@@ -1,0 +1,39 @@
+# Arch Linux Automated Installer Configuration
+# Copy this file to arch-install.conf and modify as needed
+
+# Target disk (leave empty for interactive selection)
+# TARGET_DISK="/dev/sda"
+
+# System configuration
+HOSTNAME="archlinux"
+USERNAME="archuser"
+USER_PASSWORD="changeme123"
+ROOT_PASSWORD="rootpass123"
+TIMEZONE="America/New_York"
+LOCALE="en_US.UTF-8"
+KEYMAP="us"
+
+# Desktop environment (gnome, kde, xfce, i3, or empty for none)
+DESKTOP_ENVIRONMENT="gnome"
+
+# AUR helper (yay, paru, or empty for none)
+INSTALL_AUR_HELPER="yay"
+
+# Additional packages (space-separated)
+# ADDITIONAL_PACKAGES="firefox chromium vim git"
+
+# Services to enable (space-separated)
+ENABLE_SERVICES="NetworkManager"
+
+# Bootloader (systemd-boot or grub)
+BOOTLOADER="systemd-boot"
+
+# Partition sizes
+EFI_SIZE="512M"
+SWAP_SIZE="4G"
+# ROOT_SIZE=""  # Leave empty to use remaining space
+
+# Package lists
+BASE_PACKAGES="base linux linux-firmware sudo vim nano networkmanager"
+DESKTOP_PACKAGES=""
+DEV_PACKAGES="git base-devel"
