@@ -1,0 +1,35 @@
+🐧 ARCH LINUX AUTO-INSTALLER - SIMPLE INSTRUCTIONS 🐧
+
+YOUR LIVE USB IS READY! Here's what to do:
+
+1. BOOT FROM THIS USB
+2. RUN THIS ONE COMMAND:
+
+wget https://raw.githubusercontent.com/Phantomojo/archlinux/main/start-auto-install.sh && chmod +x start-auto-install.sh && ./start-auto-install.sh
+
+3. THAT'S IT! The script will automatically:
+   ✅ Connect to WiFi (WAHOME) using iwctl
+   ✅ Download the installer
+   ✅ Install Arch Linux automatically
+   ✅ Reboot into your new system
+
+WHAT YOU'LL GET:
+✅ LUKS-encrypted 100GB root with LVM
+✅ i3 window manager + paru AUR helper  
+✅ NVIDIA RTX 3050 Ti + Intel Iris Xe Optimus
+✅ All essentials: docker, git, python, vim, networkmanager
+✅ Cursor IDE installed post-base
+✅ Warehouse partition (~845GB) accessible from Ubuntu
+✅ User: michael with zsh shell (like Ubuntu)
+✅ All user groups: wheel, adm, cdrom, sudo, dip, plugdev, users, lpadmin, docker, wireshark, libvirt
+✅ Virtualization tools: libvirt, qemu, virt-manager, virt-viewer
+✅ AI/ML tool: ollama-bin
+✅ ZERO manual intervention required
+
+TARGET: /dev/nvme1n1 (your 1TB drive)
+WIFI: WAHOME (password: dalial2020)
+WARNING: This will completely wipe the target drive!
+
+Full documentation: https://github.com/Phantomojo/archlinux
+
+That's it! Just run the one command above and you're done! 🚀
